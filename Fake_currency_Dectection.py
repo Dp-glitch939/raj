@@ -8,7 +8,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import confusion_matrix
 
 # Load the dataset
-data = pd.read_csv('data_banknote_authentication.txt', header=None)
+data = pd.read_csv('Data_BankNote.txt', header=None)
 data.columns = ['var', 'skew', 'curt', 'entr', 'auth']
 
 # Plot the distribution of the target variable
